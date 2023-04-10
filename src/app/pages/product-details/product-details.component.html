@@ -1,0 +1,138 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="text-center my-4">Product Details</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <!-- Product image -->
+    <div class="col-lg-6 col-md-12">
+      <img
+        src="https://via.placeholder.com/500x500"
+        alt="Product image"
+        class="img-fluid"
+      />
+    </div>
+
+    <!-- Product information -->
+    <div class="col-lg-6 col-md-12">
+      <h2>Product Name</h2>
+      <p class="text-muted">Product Category</p>
+      <h4>$99.99</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+        odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla
+        quis sem at nibh elementum imperdiet.
+      </p>
+
+      <!-- Product options -->
+      <h5 class="mt-4">Options:</h5>
+      <div class="mb-3">
+        <label for="size" class="form-label">Size</label>
+        <select class="form-select" id="size">
+          <option selected>Choose...</option>
+          <option value="1">Small</option>
+          <option value="2">Medium</option>
+          <option value="3">Large</option>
+        </select>
+      </div>
+
+      <!-- Add to cart -->
+      <div class="d-flex align-items-center">
+        <div class="input-group">
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="button-addon1"
+          >
+            -
+          </button>
+          <input
+            type="text"
+            class="form-control text-center"
+            value="1"
+            aria-label="Example text with button addon"
+            aria-describedby="button-addon1"
+          />
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="button-addon2"
+          >
+            +
+          </button>
+        </div>
+        <button class="btn btn-primary ms-3" type="button">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product description and reviews -->
+  <div class="row mt-5">
+    <div class="col-12">
+      <ul class="nav nav-tabs" id="productTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link active"
+            id="description-tab"
+            data-bs-toggle="tab"
+            href="#description"
+            role="tab"
+            aria-controls="description"
+            aria-selected="true"
+            >Description</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link"
+            id="reviews-tab"
+            data-bs-toggle="tab"
+            href="#reviews"
+            role="tab"
+            aria-controls="reviews"
+            aria-selected="false"
+            >Reviews</a
+          >
+        </li>
+      </ul>
+      <div class="tab-content" id="productTabsContent">
+        <div
+          class="tab-pane fade show active"
+          id="description"
+          role="tabpanel"
+          aria-labelledby="description-tab"
+        >
+          <p class="mt-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+            odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla
+            quis sem at nibh elementum imperdiet.
+          </p>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="reviews"
+          role="tabpanel"
+          aria-labelledby="reviews-tab"
+        >
+          <div class="mt-4">
+            <h5>John Doe</h5>
+            <p class="text-muted">March 10, 2023</p>
+            <p>
+              Great product! I love the design and quality. I would definitely
+              recommend this to my friends.
+            </p>
+            <hr />
+            <h5>Jane Smith</h5>
+            <p class="text-muted">March 8, 2023</p>
+            <p>
+              I'm very happy with my purchase. The product arrived on time and
+              in perfect condition.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,91 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="text-center my-4">Order Confirmation</h1>
+    </div>
+  </div>
+
+  <!-- Order summary -->
+  <div class="row">
+    <div class="col-lg-8 col-md-12">
+      <div class="card mb-4">
+        <div class="card-header">
+          <h5>Order Summary</h5>
+        </div>
+        <div class="card-body">
+          <p>Order ID: <strong>1004</strong></p>
+          <p>Order Date: <strong>2023-04-10</strong></p>
+          <p>Order Status: <strong>Processing</strong></p>
+          <p>Shipping Address:</p>
+          <address>
+            John Doe<br />
+            1234 Example St.<br />
+            Suite 567<br />
+            City, ST 12345<br />
+            Country
+          </address>
+        </div>
+      </div>
+
+      <!-- Ordered items -->
+      <div class="card mb-4">
+        <div class="card-header">
+          <h5>Ordered Items</h5>
+        </div>
+        <div class="card-body">
+          <ul class="list-group">
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Item 1
+              <span class="badge bg-primary">$25.00</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Item 2
+              <span class="badge bg-primary">$40.00</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Item 3
+              <span class="badge bg-primary">$20.00</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Payment details -->
+    <div class="col-lg-4 col-md-12">
+      <div class="card">
+        <div class="card-header">
+          <h5>Payment Details</h5>
+        </div>
+        <div class="card-body">
+          <p>Payment Method: <strong>Credit Card</strong></p>
+          <p>Cardholder Name: <strong>John Doe</strong></p>
+          <p>Card Number: <strong>**** **** **** 1234</strong></p>
+          <p>Expiry Date: <strong>12/25</strong></p>
+          <div class="mt-3">
+            <p>Subtotal: <strong>$85.00</strong></p>
+            <p>Shipping: <strong>$10.00</strong></p>
+            <p>Tax: <strong>$7.65</strong></p>
+            <hr />
+            <p>Total: <strong>$102.65</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to orders -->
+  <div class="row mt-5">
+    <div class="col-12">
+      <div class="d-flex justify-content-center">
+        <button class="btn btn-primary">Back to My Orders</button>
+      </div>
+    </div>
+  </div>
+</div>
