@@ -17,6 +17,7 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 import { ReturnPolicyComponent } from './return-policy/return-policy.component';
 import { ShippingInformationComponent } from './shipping-information/shipping-information.component';
 import { FormsModule } from '@angular/forms';
+import { ShopComponent } from './shop/shop.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { FormsModule } from '@angular/forms';
     PrivacyPolicyComponent,
     ReturnPolicyComponent,
     ShippingInformationComponent,
+    ShopComponent,
   ],
   imports: [CommonModule, FormsModule],
   exports: [
